@@ -1,7 +1,39 @@
 body {
   font-family: 'Grenze Gotisch', cursive;
-  font-size: 30px;
-  color:#faeaa4;
-  background: #391d02
+  background: #76450a;
 }
 
+.heading {
+  color:#faeaa4;
+  position: absolute;
+  width: 20%;
+  left: 1%;
+  font-size: 40px;
+}
+
+#insult {
+  color: #391d02;
+  font-size: 65px;
+  font-family: 'Great Vibes', cursive;
+  line-height: 100px;
+}
+
+.frame {
+  position: relative;
+  top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  width: 50%;
+  height: 500px;
+  transform: rotate(-7deg);
+  box-shadow: -10px 10px 60px 10px rgba(0,0,0,.5);
+}
+
+.paper {
+  background-color: #fbf5dd;
+  background-image: -webkit-linear-gradient(rgba(255,255,255,.06), rgba(206,102,28,.1) 33%, rgba(255,255,255,.1) 33%, rgba(206,102,28,.1) 67%, rgba(255,255,255,.1) 67%, rgba(206,102,28,.06));
+	background-image: linear-gradient(rgba(255,255,255,.06), rgba(206,102,28,.1) 33%, rgba(255,255,255,.1) 33%, rgba(206,102,28,.1) 67%, rgba(255,255,255,.1) 67%, rgba(206,102,28,.06));
+	position: relative;
+}
