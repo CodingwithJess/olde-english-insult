@@ -1,5 +1,5 @@
 body {
-  font-family: 'Grenze Gotisch', cursive;
+  font-family: 'Meddon', cursive;
   background: #76450a;
 }
 
@@ -8,13 +8,13 @@ body {
   position: absolute;
   width: 20%;
   left: 1%;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 #insult {
   color: #391d02;
   font-size: 65px;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Grenze Gotisch', cursive;
   line-height: 100px;
 }
 

@@ -5,12 +5,13 @@ const lastInsult = ["apple-john", "baggage", "barnacle", "bladder", "boar-pig", 
 
 const randomInsult = () => {
   return firstInsult[Math.floor(Math.random() * (firstInsult.length))]
-  + "thou" + 
+  + " thou " + 
   secondInsult [Math.floor(Math.random() * (secondInsult.length))] 
   + " " + 
   thirdInsult[Math.floor(Math.random() * (thirdInsult.length))]
   + " " + 
   lastInsult[Math.floor(Math.random() * (lastInsult.length))]
+  + " !"  
 }
 
 const generateInsult = () => {
@@ -19,4 +20,8 @@ const generateInsult = () => {
     $(".ink").animate(
       {height:"5px"}, 450);
   });
+  $("#insult").fadeIn("slow", function () {
+    $(".ink").animate(
+      {height:"120px"}, 450);
+  })
 }

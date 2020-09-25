@@ -3,10 +3,11 @@
 <head>
   <title>Ye Olde English Insults</title>
   <!-- GoogleFonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Grenze+Gotisch:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&family=Meddon&display=swap" rel="stylesheet">
   <!-- Internal CSS -->
   <link href="style.css" rel="stylesheet" type="text/css">
   <link href="inkbottle.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="index.js"></script>
 </head>
 <body>
   <!-- Instructions for the user to appear on an piece of parchment -->
@@ -15,7 +16,7 @@
     <div id="insult">Click on the ink bottle to generate an insult!</div>   
   </div>
   <!-- Ink bottle code elements -->
-  <div class="inkbottle">
+  <div class="inkbottle" onClick="generateInsult()">
     <div class="bottle-top"></div>
     <div class="bottle-neck"></div>
     <div class="bottle-body">
@@ -24,6 +25,16 @@
       </div>
     </div>
   </div>
-<script type="text/javascript" src="index.js"></script>  
+  <!-- Candle code elements -->
+  <div class="candle">
+    <div class="flame"></div>
+    <div class="waxtop"></div>
+    <div class="wax"></div>
+    <div class="plate"></div>
+  </div>
+  <div class="glow"></div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>  
 </body>
 </html>
