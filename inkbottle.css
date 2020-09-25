@@ -1,0 +1,15 @@
+:before, :after
+{
+	content: '';
+	display: block;
+	position: absolute;
+}
+
+.bottle
+{
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	width: 100px;
+}
